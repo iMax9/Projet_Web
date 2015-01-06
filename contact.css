@@ -9,9 +9,9 @@ background-position: center center
 
 .entete h2
 {
-	font-size:17px;
-	padding-left: 300px;
-	margin-top: -50px
+font-size:17px;
+padding-left: 200px;
+margin-top: -50px
 }
 
 .entete table
@@ -22,20 +22,20 @@ border-radius:5px;
 background-image: url("parchemin.jpg");
 }
 
-.entete td img
-{
-	width:30px;
-	height:30px;
-	float:left;
-	padding-left:220px;
-}
-
 .entete td
 {
 font-size:20px;
 font-family:Forte;
 width:25%;
+text-align:left;
+padding-top:10px;
+margin-left: px
+}
+
+.entete th
+{
 text-align:right;
+width: 15%%
 }
 
 .entete .titre
@@ -45,17 +45,14 @@ border-radius: 5px;
 font-size:40px;
 font-family:Forte;
 background-image: url("parchemin.jpg");
+margin-bottom: 2px;
+padding-left:50px
 }
 
 .entete .titre img
 {
 height:125px;
-float:left
-}
-
-.entete img
-{
-float:right
+float:left;
 }
 
 .entete img
@@ -66,36 +63,28 @@ padding-left: 15px;
 padding-top: 15px
 }
 
-.entete ul
-{
-padding-top: 15px
-}
-
-.entete ul li
-{
-display: inline;
-border: 2px solid black;
-border-radius: 0.25em;
-background-image: url("bois.jpg");
-font-size: 30px;
-padding-left: 8px;
-padding-right: 8px;
-}
-
-.recherche
-{
-float:right
-}
-
 .entete a
 {
-color: white;
+color:black;
 text-decoration: none
 }
 
-#titre
+.entete td img
 {
-	font-family:forte;
-	text-align:center;
-	font-size:5em;
+height:35px;
+float:left;
+margin-top: -22px
+}
+
+#link
+{
+padding-left: 5px
+}
+
+#logo
+{
+height:100px;
+float:right;
+margin-top:-3.75em;
+padding-right:1em
 }
