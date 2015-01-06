@@ -1,0 +1,79 @@
+﻿body
+{
+background-image: url("hyruleback.png");
+background-size: 100%;
+background-attachment: fixed;
+background-size: cover;
+background-position: center center
+}
+
+.entête table
+{
+width:100%;
+border:2px solid black;
+border-radius:5px;
+background-image: url("parchemin.jpg");
+}
+
+.entête td
+{
+font-size:20px;
+font-family:Forte;
+width:25%;
+text-align:right
+}
+
+.entête .titre
+{
+border: 2px solid black;
+border-radius: 5px;
+font-size:40px;
+font-family:Forte;
+background-image: url("parchemin.jpg");
+}
+
+.entête .titre img
+{
+height:125px;
+float:left
+}
+
+.entête img
+{
+float:right
+}
+
+.entête img
+{
+float: left;
+height: 150px;
+padding-left: 15px;
+padding-top: 15px
+}
+
+.entête ul
+{
+padding-top: 15px
+}
+
+.entête ul li
+{
+display: inline;
+border: 2px solid black;
+border-radius: 0.25em;
+background-image: url("bois.jpg");
+font-size: 30px;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+.recherche
+{
+float:right
+}
+
+.entête a
+{
+color: white;
+text-decoration: none
+}
