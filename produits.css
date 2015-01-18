@@ -99,7 +99,7 @@ padding-right:1em
 #bourse
 {
 	margin-left: -1em;
-	margin-top: -0.15em;
+	margin-top: -1.30em;
 }
 
 /*Fin entête*/
@@ -152,11 +152,13 @@ padding-right:1em
 	width:30em;
 	padding-bottom: 0.8em;
 	padding-top: 0.5em;
+	height:8.5em;
 }
 
 .titretab
 {
 	border: 1px solid black;
+	background-image: url("parchemin.jpg")
 }
 
 .item
@@ -183,4 +185,21 @@ padding-right:1em
 	padding-left:1em;
 	margin-right: 1em;
 	margin-top: -0.6em;
+}
+
+.quantite
+{
+	margin-top: 5em;
+}
+
+.panier
+{
+	margin-right: -5.5em;
+	margin-top: 5em;
+	float:right;
+}
+
+#test
+{
+	float:left;
 }
