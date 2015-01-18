@@ -1,10 +1,11 @@
 body
 {
-background-image: url("hyruleback.png");
-background-size: 100%;
-background-attachment: fixed;
-background-size: cover;
-background-position: center center
+	background-image: url("hyruleback.png");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	font-family:Forte;
 }
 
 /*Début entête*/
@@ -42,13 +43,12 @@ font-family:Forte;
 width:25%;
 text-align:left;
 padding-top:10px;
-margin-left: px
 }
 
 .entete th
 {
 text-align:right;
-width: 15%%
+width: 15%;
 }
 
 .entete .titre img
@@ -83,6 +83,11 @@ margin-top: -22px
 padding-left: 5px
 }
 
+#link:hover
+{
+	color:grey;
+}
+
 #logo
 {
 height:100px;
@@ -98,3 +103,84 @@ padding-right:1em
 }
 
 /*Fin entête*/
+
+
+/*Tableau produits*/
+
+.now,.best
+{
+	border: 1px solid black;
+	margin-top: 1em;
+	padding-right: 0.8em;
+	padding-left: 0.8em;
+	padding-bottom:1em;
+}
+
+.now
+{
+	background-color:rgba(255,255,255,0.5);
+	float:left;
+}
+
+.best
+{
+	float:right;
+	background-color:rgba(255,255,255,0.5);
+	padding-bottom:1em;
+	
+}
+
+.produit p
+{
+	padding-top:-30em;
+}
+
+.produit
+{
+	font-size:13pt;
+	border-top-width:1px;
+	border-top-style: solid;
+	width:35em;
+	padding-bottom: 0.8em;
+	padding-top: 0.5em;
+	margin-top:-5em;
+	margin-left: 3em;
+}
+
+#first
+{
+	width:30em;
+	padding-bottom: 0.8em;
+	padding-top: 0.5em;
+}
+
+.titretab
+{
+	border: 1px solid black;
+}
+
+.item
+{
+	width:5em;
+	height:5em;
+	float:left;
+	padding-right: 1.5em;
+}
+
+.item + p
+{
+	text-align:right;
+	float:right;
+	margin-top:2em;
+	font-size:15pt;
+}
+
+.rubis
+{
+	width:10%;
+	height:10%;
+	float:right;
+	padding-left:1em;
+	margin-right: 1em;
+	margin-top: -0.6em;
+}
