@@ -89,13 +89,22 @@ padding-right:1em
 
 #bourse, #logo
 {
+<<<<<<< HEAD
 	padding-top:15px;
+=======
+	padding-bottom: -7em;
+	padding-top:15px
+>>>>>>> origin/gh-pages
 }
 
 #imgonglet
 {
+<<<<<<< HEAD
 	padding-top:15px;
 	vertical-align: center;
+=======
+	padding-top:14px;
+>>>>>>> origin/gh-pages
 }
 
 /*Fin entête*/
