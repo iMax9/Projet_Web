@@ -103,8 +103,7 @@ margin-top: -22px
 
 #bourse
 {
-	margin-left: -1em;
-	margin-top: -1.45em;
+	margin-top: 0.005em;
 }
 
 /*Fin entête*/
@@ -229,13 +228,15 @@ margin-top: -22px
 	width:120%;
 }
 
-footer a
+footer table
 {
-	margin-top: 8em;
-	float:left;
-	margin-left: -10em;
-	width:15em;
+	float: right;
+	width: 50%;
+}
 
+footer td
+{
+	position: center
 }
 
 #gauche
