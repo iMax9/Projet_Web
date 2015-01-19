@@ -102,3 +102,26 @@ padding-right:1em
 }
 
 /*Fin entête*/
+
+.rappel
+{
+	background-color:rgba(255,255,255,0.5);
+	border:1px solid black;
+	font-family:forte; 
+}
+
+li:first-child
+{
+	margin-top: -5em
+}
+
+li
+{
+	list-style: none;
+	padding-top: 4em;
+}
+
+li img
+{
+	height:35px;
+}
