@@ -228,12 +228,15 @@ margin-top: -22px
 	width:120%;
 }
 
-footer a
+footer table
 {
-	margin-top: 8em;
-	margin-left: -10em;
-	width:15em;
-	position:bottom;
+	float: right;
+	width: 50%;
+}
+
+footer td
+{
+	position: center
 }
 
 #gauche
