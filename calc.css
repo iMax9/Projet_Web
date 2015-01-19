@@ -60,8 +60,6 @@ float:left;
 {
 float: left;
 height: 150px;
-padding-left: 15px;
-padding-top: 15px
 }
 
 .entete a
@@ -95,9 +93,18 @@ margin-top:-3.75em;
 padding-right:1em
 }
 
-#bourse
+#bourse, #logo
 {
+<<<<<<< HEAD
 	padding-bottom: -7em;
+=======
+	padding-top:15px
+}
+
+#imgonglet
+{
+	padding-top:15px
+>>>>>>> fc61fc82796ae5e8636d6b4b27113c4216a345a9
 }
 
 /*Fin entête*/
