@@ -80,7 +80,8 @@ margin-top: -22px
 
 #link
 {
-padding-left: 5px
+	padding-left: 5px;
+	transition: color 0.5s;
 }
 
 #link:hover
@@ -88,18 +89,23 @@ padding-left: 5px
 	color:grey;
 }
 
+#link:active
+{
+	color:white;
+}
+
 #logo
 {
-height:100px;
-float:right;
-margin-top:-3.75em;
-padding-right:1em
+	height:100px;
+	float:right;
+	margin-top:-3.75em;
+	padding-right:1em;
 }
 
 #bourse
 {
 	margin-left: -1em;
-	margin-top: -1.30em;
+	margin-top: -1.45em;
 }
 
 /*Fin entête*/
@@ -107,27 +113,32 @@ padding-right:1em
 
 /*Tableau produits*/
 
-.now,.best
+.now,.best,.conso
 {
 	border: 1px solid black;
 	margin-top: 1em;
 	padding-right: 0.8em;
 	padding-left: 0.8em;
 	padding-bottom:1em;
+	background-color:rgba(255,255,255,0.5);
 }
 
 .now
 {
-	background-color:rgba(255,255,255,0.5);
 	float:left;
 }
 
 .best
 {
 	float:right;
-	background-color:rgba(255,255,255,0.5);
 	padding-bottom:1em;
 	
+}
+
+.conso
+{
+	float:left;
+	margin-top: 2em;
 }
 
 .produit p
@@ -149,16 +160,19 @@ padding-right:1em
 
 #first
 {
-	width:30em;
+	font-size:13pt;
+	border-top-width:1px;
+	width:35em;
 	padding-bottom: 0.8em;
 	padding-top: 0.5em;
-	height:8.5em;
-}
+	margin-top:-5em;
+	margin-left: 3em;}
 
 .titretab
 {
 	border: 1px solid black;
-	background-image: url("parchemin.jpg")
+	background-image: url("parchemin.jpg");
+	margin-left:90em;
 }
 
 .item
@@ -169,37 +183,70 @@ padding-right:1em
 	padding-right: 1.5em;
 }
 
-.item + p
+.prix
 {
 	text-align:right;
-	float:right;
-	margin-top:2em;
-	font-size:15pt;
+	font-size:16pt;
+	margin-right: 2.5em;
+	margin-top: 2em;
 }
+
+.desc
+{
+	float:left;
+	margin-top: 1.5em;
+}
+
 
 .rubis
 {
-	width:10%;
 	height:10%;
 	float:right;
 	padding-left:1em;
 	margin-right: 1em;
-	margin-top: -0.6em;
+	margin-top: -3.15em;
 }
 
 .quantite
 {
-	margin-top: 5em;
+	margin-top:-0.5em;
 }
 
 .panier
 {
-	margin-right: -5.5em;
-	margin-top: 5em;
-	float:right;
+	margin-left: 3em;
 }
 
-#test
+#zelda
 {
+	float:right;
+	margin-right: 8em;
+	margin-top: 6em;
+}
+
+#zelda img
+{
+	height:120%;
+	width:120%;
+}
+
+footer a
+{
+	margin-top: 8em;
 	float:left;
+	margin-left: -10em;
+	width:15em;
+
+}
+
+#gauche
+{
+	margin-right: 12em
+}
+
+
+
+footer td
+{
+
 }

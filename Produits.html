@@ -10,14 +10,14 @@
 	<!--Début entête-->
 		<section class="entete">
 		<section class="titre">
-			<a href="pageaccueil.html"><a href="pageaccueil.html"><img src="bourse.png" id="bourse"><h1>Trésor d'Hyrule</h1></a><img src="logozelda.png" id="logo">
+			<a href="pageaccueil.html"><img src="bourse.png" id="bourse"><h1>Trésor d'Hyrule</h1></a><img src="logozelda.png" id="logo">
 			<h2>"Parce que vous n'êtes jamais assez préparés pour un donjon !"</h2>
 		</section>
 		<table>
 		<tr>
-		<td>	<a href="PageAccueil.html" id="link"><img src="triforce.png">Accueil</td>
-		<td>	<a href="Produits.html" id="link"><img src="triforce.png">Nos Produits</td>
-		<td>	<a href="Contact.html" id="link"><img src="triforce.png">Contact</td>
+		<td>	<a href="PageAccueil.html" id="link"><img src="triforce.png">Accueil</a></td>
+		<td>	<a href="Produits.html" id="link"><img src="triforce.png">Nos Produits</a></td>
+		<td>	<a href="Contact.html" id="link"><img src="triforce.png">Contact</a></td>
 		<form>
 				<td><input placeholder="Rechercher..."><button>OK</button></td>
 		</form>
@@ -28,9 +28,9 @@
 		<section class="corps">
 			<table  class="now">
 					<tr><th class="titretab">EN CE MOMENT</th><tr>
-					<tr><td id="first"><img src="chaussures.png" class="item">Ces chaussures ont l'incroyable capacité de vous tenir les pieds au chaud !<p>100<img src="rubis.png" class="rubis"></p>
-						<form method="GET">Quantité
-							<select class="quantite">
+					<tr><td id="first"><img src="chaussures.png" class="item">Bottes de Pégase<p class="desc">Ces bottes vous permettent de courir très rapidement</p><p class="prix">100</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
 								<option></option>
 								<option>1</option>
 								<option>2</option>
@@ -41,9 +41,9 @@
 							<input type="submit" value="Ajouter au panier" class="panier">
 						</form>
 					</td></tr>
-					<tr><td	class="produit"><img src="boomerang.png" class="item">S'il ne revient pas, on vous rembourse 2 fois la différence.<p>5<img src="rubis.png" class="rubis"></p>
-						<form method="GET">Quantité
-							<select class="quantite">
+					<tr><td class="produit"><img src="boomerang.png" class="item">Boomerang<p class="desc">S'il ne revient pas on vous rembourse 2 fois la différence.</p><p class="prix">3</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
 								<option></option>
 								<option>1</option>
 								<option>2</option>
@@ -54,9 +54,9 @@
 							<input type="submit" value="Ajouter au panier" class="panier">
 						</form>
 					</td></tr>
-					<tr><td class="produit"><img src="ocarina.png" class="item">Un joli son mais pas que ...<p>250<img src="rubis.png" class="rubis"></p>
-						<form method="GET">Quantité
-							<select class="quantite">
+					<tr><td class="produit"><img src="ocarina.png" class="item">Ocarina du Vent<p class="desc">Produit un son agréable mais pas que ...</p><p class="prix">1000</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
 								<option></option>
 								<option>1</option>
 								<option>2</option>
@@ -70,9 +70,9 @@
 			</table>
 			<table class="best">
 					<th class="titretab">MEILLEURES VENTES</th>
-					<tr><td id="first"><img src="epee.png" class="item">Classique, mais efficace.<p>500<img src="rubis.png" class="rubis"></p>
-						<form method="GET">Quantité
-							<select class="quantite">
+					<tr><td id="first"><img src="epee.png" class="item">&#xC9;pée du Héros<p class="desc">Classique, mais efficace.</p><p class="prix">500</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
 								<option></option>
 								<option>1</option>
 								<option>2</option>
@@ -83,9 +83,9 @@
 							<input type="submit" value="Ajouter au panier" class="panier">
 						</form>
 					</td></tr>
-					<tr><td class="produit"><img src="bouclier.png" class="item">Aussi appelé "l'indispensable".<p>500<img src="rubis.png" class="rubis"></p>
-						<form method="GET">Quantité
-							<select class="quantite">
+					<tr><td class="produit"><img src="Bouclier.png" class="item">Bouclier Hylien<p class="desc">Aussi appelé "l'indispensable"</p><p class="prix">500</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
 								<option></option>
 								<option>1</option>
 								<option>2</option>
@@ -96,9 +96,9 @@
 							<input type="submit" value="Ajouter au panier" class="panier">
 						</form>
 					</td></tr>
-					<tr><td class="produit"><img src="arc.png" class="item">Très utile pour les cibles à mi-distance.<p>400<img src="rubis.png" class="rubis"></p>
-						<form method="GET">Quantité
-							<select class="quantite">
+					<tr><td class="produit"><img src="arc.png" class="item">Arc du Héros<p class="desc">Très utile pour les cibles à mi-distance</p><p class="prix">400</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
 								<option></option>
 								<option>1</option>
 								<option>2</option>
@@ -109,22 +109,9 @@
 							<input type="submit" value="Ajouter au panier" class="panier">
 						</form>
 					</td></tr>
-					<tr><td class="produit"><img src="carte.png" class="item">C'est mieux de savoir où on va non ?<p>100<img src="rubis.png" class="rubis"></p>
-						<form method="GET">Quantité
-							<select class="quantite">
-								<option></option>
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-							</select>
-							<input type="submit" value="Ajouter au panier" class="panier">
-						</form>
-					</td></tr>
-					<tr><td class="produit"><img src="cle.png" class="item">On tombe facilement sur une pote fermée !<p>50/u<img src="rubis.png" class="rubis"></p>
-						<form method="GET">Quantité
-							<select class="quantite">
+					<tr><td class="produit"><img src="carte.png" class="item">Carte d'Hyrule<p class="desc">C'est mieux de savoir où on va non ?</p><p class="prix">100</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
 								<option></option>
 								<option>1</option>
 								<option>2</option>
@@ -136,4 +123,81 @@
 						</form>
 					</td></tr>
 			</table>
+			<table class="conso">
+					<th class="titretab">CONSOMMABLES</th>
+					<tr><td id="first"><img src="fleche.png" class="item">Lot de 5 flèches<p class="desc">Un arc c'est bien mais avec des flèches c'est mieux non ?</p><p class="prix">30</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
+								<option></option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<input type="submit" value="Ajouter au panier" class="panier">
+						</form>
+					</td></tr>
+					<tr><td class="produit"><img src="bombe.png" class="item">Lot de 10 bombes<p class="desc">Détruits même les murs les plus récalcitrants !</p><p class="prix">30</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
+								<option></option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<input type="submit" value="Ajouter au panier" class="panier">
+						</form>
+					</td></tr>
+					<tr><td class="produit"><img src="rpotion.png" class="item">Potion rouge<p class="desc">Très efficace lorsqu'il s'agît de vous soigner !</p><p class="prix">20</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
+								<option></option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<input type="submit" value="Ajouter au panier" class="panier">
+						</form>
+					</td></tr>
+					<tr><td class="produit"><img src="bpotion.png" class="item">Potion bleue<p class="desc">Remonte votre barre de magie en un rien de temps !</p><p class="prix">100</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite">Quantité
+							<select>
+								<option></option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<input type="submit" value="Ajouter au panier" class="panier">
+						</form>
+					</td></tr>
+					<tr><td class="produit"><img src="cle.png" class="item">Clé<p class="desc">Parce qu'on tombe facileent sur une porte fermée !</p><p class="prix">50/u</p><img src="rubis.png" class="rubis">
+						<form method="GET" class="quantite"><label for="Qté">Quantité
+							<select>
+								<option></option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+							<input type="submit" value="Ajouter au panier" class="panier">
+						</form>
+					</td></tr>
+			</table>
+			<p id="zelda"><img src="zelda.png"></p>
+			<footer>
+				<table>
+					<tr>
+						<td><a href="validcom.html" id="gauche"><button>Valider ma commande</button></a></td>
+						<td><a href="#link"><button>Remonter en haut de la page</button></a></td>
+					</tr>
+				</table>
+			</footer>		
 		</section>
