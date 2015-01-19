@@ -231,10 +231,9 @@ margin-top: -22px
 footer a
 {
 	margin-top: 8em;
-	float:left;
 	margin-left: -10em;
 	width:15em;
-
+	position:bottom;
 }
 
 #gauche
