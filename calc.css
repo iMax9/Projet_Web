@@ -99,6 +99,12 @@ padding-right:1em
 	padding-top:15px
 }
 
+#bourse
+{
+	margin-top: -1.25em;
+	margin-left: -0.5em;
+}
+
 #imgonglet
 {
 	padding-top:14px;
@@ -112,22 +118,73 @@ padding-right:1em
 	border:1px solid black;
 	font-family:forte; 
 	float:right;
+	margin-top: 3em;
 }
 
-li:first-child
+#zoom
 {
-	margin-top: -5em
+	background-color:rgba(255,255,255,0.5);
+	border:1px solid black;
+	font-family:forte;
+	margin-right: 14em;
+	margin-top: 3em
 }
 
-li
+#zoom tr
 {
-	list-style: none;
-	padding-top: 4em;
+	background-image:url("parchemin.png")
 }
 
-li img
+p:nth-child(2), p:nth-child(4)
+{
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+p
+{
+	font-size: 15pt
+}
+
+#quote
+{
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+#triforce
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#legende
+{
+	text-align: center;
+	font-size: 12pt;
+}
+
+h3
+{
+	margin-left: 1.75em;
+	font-size: 18pt;
+}
+
+td
+{
+	font-size: 17pt;
+	border-spacing:1px 9px;
+}
+
+.txt
+{
+	padding-bottom: 0.5em;
+}
+
+td img
 {
 	height:35px;
+	padding-left: 0.25em;
+	border-top: 0.5em;
 }
-
-
