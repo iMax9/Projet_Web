@@ -98,31 +98,7 @@ padding-right:1em
 #bourse
 {
 	margin-left: -1em;
-	margin-top: -1.30em;
+	margin-top: -0.15em;
 }
 
 /*Fin entête*/
-
-#rappel
-{
-	background-color:rgba(255,255,255,0.5);
-	border:1px solid black;
-	font-family:forte; 
-	float:right;
-}
-
-li:first-child
-{
-	margin-top: -5em
-}
-
-li
-{
-	list-style: none;
-	padding-top: 4em;
-}
-
-li img
-{
-	height:35px;
-}
