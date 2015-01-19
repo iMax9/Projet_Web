@@ -95,16 +95,13 @@ padding-right:1em
 
 #bourse, #logo
 {
-<<<<<<< HEAD
 	padding-bottom: -7em;
-=======
 	padding-top:15px
 }
 
 #imgonglet
 {
-	padding-top:15px
->>>>>>> fc61fc82796ae5e8636d6b4b27113c4216a345a9
+	padding-top:14px;
 }
 
 /*Fin entête*/
