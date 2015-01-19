@@ -56,12 +56,6 @@ height:125px;
 float:left;
 }
 
-.entete img
-{
-float: left;
-height: 150px;
-}
-
 .entete a
 {
 color:black;
@@ -95,12 +89,13 @@ padding-right:1em
 
 #bourse, #logo
 {
-	padding-top:15px
+	padding-top:15px;
 }
 
 #imgonglet
 {
-	padding-top:15px
+	padding-top:15px;
+	vertical-align: center;
 }
 
 /*Fin entête*/
