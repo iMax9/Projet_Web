@@ -171,6 +171,11 @@ padding-right:1em;
 	margin-left:90em;
 }
 
+.name
+{
+	font-size:16pt
+}
+
 .item
 {
 	width:5em;
@@ -184,13 +189,12 @@ padding-right:1em;
 	text-align:right;
 	font-size:16pt;
 	margin-right: 2.5em;
-	margin-top: 2em;
 }
 
 .desc
 {
 	float:left;
-	margin-top: 1.5em;
+	margin-top:-5px;
 }
 
 
@@ -217,7 +221,6 @@ padding-right:1em;
 {
 	float:right;
 	margin-right: 8em;
-	margin-top: 3em;
 }
 
 #zelda img
@@ -232,24 +235,24 @@ footer table
 	padding-top: 5px;
 }
 
-#gauche
+.boutons
 {
-	margin-right: 12em;
+	float:right;
+	width:50%;
 }
 
-#droite
+.boutons tr
 {
-	padding-left: 49em;
+	text-align: center
 }
 
-.commentaire
+.probleme
 {
-	padding-left: 26em;
+	float:right;
+	width: 50%;
 }
 
-
-#bouton
+#bouton, #text
 {
-	padding-left:1em;
-	padding-top: 6.5em; 
+	text-align:center
 }
