@@ -224,7 +224,7 @@ padding-right:1em
 {
 	float:right;
 	margin-right: 8em;
-	margin-top: 6em;
+	margin-top: 3em;
 }
 
 #zelda img
@@ -235,23 +235,28 @@ padding-right:1em
 
 footer table
 {
-	float: right;
-	width: 50%;
-}
-
-footer td
-{
-	position: center
+	float: left;
+	padding-top: 5px;
 }
 
 #gauche
 {
-	margin-right: 12em
+	margin-right: 12em;
+}
+
+#droite
+{
+	padding-left: 49em;
+}
+
+.commentaire
+{
+	padding-left: 26em;
 }
 
 
-
-footer td
+#bouton
 {
-
+	padding-left:1em;
+	padding-top: 6.5em; 
 }

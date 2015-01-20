@@ -147,7 +147,7 @@ padding-right:1em
 
 #first
 {
-	font-size:13pt;
+	font-size:16pt;
 	border-top-width:1px;
 	width:35em;
 	padding-bottom: 0.8em;
@@ -214,4 +214,9 @@ footer table
 #gauche
 {
 	margin-right: 12em
+}
+
+#droite
+{
+	padding-left: 49em;
 }

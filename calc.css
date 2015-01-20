@@ -127,7 +127,7 @@ padding-right:1em
 	border:1px solid black;
 	font-family:forte;
 	margin-right: 14em;
-	margin-top: 3em
+	margin-top: 3em;
 }
 
 #zoom tr
@@ -187,4 +187,28 @@ td img
 	height:35px;
 	padding-left: 0.25em;
 	border-top: 0.5em;
+}
+
+#promo
+{
+	background-color:rgba(255,255,255,0.5);
+	border:1px solid black;
+	font-family:forte; 
+	float:right;
+	margin-left: 70em;
+	margin-top: -28em;
+}
+
+#potion
+{
+	height:70px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1.4em;
+}
+
+#promo img:last-child
+{
+	padding-bottom: 5px;
 }
