@@ -90,20 +90,13 @@ padding-left: 5px
 {
 height:100px;
 float:right;
-margin-top:-3.75em;
-padding-right:1em
-}
-
-#bourse, #logo
-{
-	padding-bottom: -7em;
-	padding-top:15px
+margin-top:-3.5em;
+padding-right:1em;
 }
 
 #bourse
 {
-	margin-top: -1.25em;
-	margin-left: -0.5em;
+	margin-top: 10px;
 }
 
 #imgonglet
