@@ -103,6 +103,62 @@ padding-right:1em
 {
 	padding-top:14px;
 }
-
-
 /*Fin entête*/
+
+.bloc
+{
+	border: 1px solid black;
+	background-color:rgba(255,255,255,0.5);
+	margin-top:1em;
+	margin-bottom:1em;
+	width: 73%;
+	float:left;
+	height:100%;
+}
+
+.bloc h1
+{
+	text-align:center;
+	font-size: 25pt
+}
+
+.bloc section
+{
+	margin:1em;
+	font-size:15pt
+}
+
+.bloc img
+{
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.photos
+{
+	border: 1px solid black;
+	background-color:rgba(255,255,255,0.5);
+	margin-top:1em;
+	margin-bottom:1em;
+	width: 23%;
+	float:right
+}
+
+.photos section
+{
+	text-align:center;
+}
+
+.photos img
+{
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#details
+{
+	font-size:13pt;
+	text-align:center;
+}
