@@ -145,6 +145,7 @@ padding-right:1em
 	margin-left: 3em;
 }
 
+<<<<<<< HEAD
 #first
 {
 	font-size:16pt;
@@ -155,6 +156,8 @@ padding-right:1em
 	margin-top:-5em;
 	margin-left: 3em;}
 
+=======
+>>>>>>> f4669e7ebeb1fad886372d529423ada52e8dc972
 .titretab
 {
 	border: 1px solid black;
@@ -181,7 +184,7 @@ padding-right:1em
 .desc
 {
 	float:left;
-	margin-top: 1.5em;
+	margin-top: -5px;
 	font-size: 13pt
 }
 
