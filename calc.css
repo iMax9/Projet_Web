@@ -184,20 +184,40 @@ td img
 	border:1px solid black;
 	font-family:forte; 
 	float:right;
-	margin-left: 70em;
-	margin-top: -28em;
+	margin-left: 70.17em;
+	margin-top: -30em;
 }
 
 #potion
 {
-	height:70px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 1.4em;
+	height:89px;
+	margin-left: 1em;
+	vertical-align: middle;
 }
 
 #promo img:last-child
 {
 	padding-bottom: 5px;
+}
+
+#left
+{
+	text-align: left;
+	vertical-align: middle;
+	position:center;
+	float:left;
+}
+
+#right
+{
+	text-align: right;
+	vertical-align: middle;
+	position: center;
+	float:right;
+}
+
+.test
+{
+	width:9em;
+	color:red;
 }
